@@ -1,17 +1,37 @@
 body {
-    background-color: cornflowerblue;
-    
+        background-image: url(cameroun-flag.png);
+        background-repeat: no-repeat;
+        /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: arial, "Times New Roman";
+
 }
 
 h1  { 
-    font-family: arial, "Times New Roman";
-    font-size: 30px;
+    font-size: 60px;
+    font-size: italic;
+    font-weight: 100;
+    text-align: center;
+    text-indent: 30px;
+    color: blue;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+
+h2  { 
+    font-size: 40px;
     font-size: italic;
     font-weight: 100;
     text-align: center;
     text-indent: 30px;
     text-transform: uppercase;
-    color: blue;
+    color: bisque;
     word-spacing: 10px;
     line-height: 40px;
 }
@@ -27,7 +47,7 @@ a{
 p    {text-align: left;
     word-spacing: 10px;
     line-height: 30px;
-    color: red;
+    color: black;
     margin-top: 100px; 
     margin-bottom: 100px; 
     margin-right: 100px; 
@@ -53,4 +73,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.head {text-align: center;
+font-size: 35pt;
+color: beige;
+
 }
