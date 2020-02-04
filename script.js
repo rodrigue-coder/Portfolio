@@ -6,7 +6,6 @@ const LAST_NAME = 'Rodrigue'
 let fullName = FIRST_NAME +' '+ LAST_NAME
 const myAddress = 'Via Assisi, 40\n10149 Torino (TO)\nItaly'
 
-
 const STREET_NAME = 'via Assisi'
 const HOUSE_NUMBER = '40'
 const ZIP_CODE = '10149'
@@ -58,3 +57,13 @@ ${Speaking_Languages_2}
 ${Speaking_Languages_3}`
 
 console.log(cv)
+
+const x = 5
+const minusX = -x
+console.log(minusX)
+
+//
+const a = '3'
+const b = '4'
+
+console.log(3 * b)
