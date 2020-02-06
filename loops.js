@@ -20,47 +20,45 @@
 // The string should be builts by looping 16 times, and at the end of the loop I want to print the result to the console
 */
 
+//let str;
+//let count = 0
+//while (count < 16) {
+  //// count++;
+//}
+//console.log("Batman!");
 
-let str;
-let count = 0
-while (count < 16) {
-    console.log("Na");
-    count++;
+
+//while (count < 16) {
+    //console.log("Na");
+   // count++;
+//}
+//console.log("Batman!");
+
+
+//let str = "a"
+//str += "b";
+//str += "c";
+//console.log("Batman")
+
+
+//str = "a " + "b " + "c " + "Batman " + "!"
+//console.log(str)
+
+
+
+//let num = prompt("number > 100", 0);
+//while (num > 101) {
+//console.log(num);
+//}
+
+
+
+let i = 0;
+while (i < 3) { 
+    console.log(i);
+  i++;
 }
-console.log("Batman!");
-
-
-let str = "a"
-str += "b";
-str += "c";
-console.log("Batman")
-
-
-str = "a " + "b " + "c " + "Batman " + "!"
-console.log(str)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(i);
 
 
 
