@@ -66,11 +66,12 @@
 
 // }
 
-// let browser = 0 ;
+// let browser = 0;
 
 // while  (true){
 //     browser = prompt('What browser do you have?'); 
-//      if (browser == 'Edge' || browser == 'Firefox' || browser == 'Opera' || browser == 'Safari' || browser == 'Chrome') 
+//      if (browser == 'Edge' || browser == 'Firefox' || browser == 'Opera' || browser == 'Safari' || browser == 'Chrome'
+//      ) 
 //      console.log("You've got the ..." + browser);
 //      else if (browser == 'stop') break; 
 //      else 
@@ -79,24 +80,64 @@
 //     }
 // }
 
-let a = +prompt('a?', '');
+// 
 
-switch (a) {
+// let a = +prompt('a?', '');
+
+// switch (a) {
     
-    case '0':
-    alert (0);
-  break; 
+//     case 0:
+//     alert (0);
+//   break; 
 
-    case '1':
-        alert (1);
-    break;
+//     case 1:
+//         alert (1);
+//     break;
 
-    case '2':
-        alert (2);
-        break
+//     case 2:
+//         alert (2);
+//         break
 
-    case '3':
-        alert (3);
-        break;
-}
+//     case 3:
+//         alert (3);
+//         break;
+// }
 
+// let browser = 0; 
+
+// while (true){
+// browser = prompt ('Which browser do you have?');
+
+//       if ( browser == 'Edge' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera')
+      
+//       console.log("You have got ... + browser"); 
+
+//          if (browser == 'stop') break; 
+          
+              
+//           else 
+//           { console.log("Riprova");
+//               }
+//           }
+         
+   
+// const ROWS = 3;
+// const COLUMNS = 5;
+// const PATERNS = "* * * *";
+// const PATERNS_2= "* * * *";
+// for (let i = 0; i <= ROWS; i++){
+//   console.log(PATERNS);
+//     for (j = 1; j <= 3; j++){
+//     console.log(PATERNS_2);
+//   }
+// } 
+
+// const ROWS = 3;
+// const COLUMS = 5;
+// const PATERNS= "*****";
+
+// for (let i = 0; i <= ROWS; i++){
+//       for (j = 1; j <= 3; j++){
+//     console.log(PATERNS);
+//   }
+// }
