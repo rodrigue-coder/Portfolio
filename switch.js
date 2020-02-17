@@ -17,10 +17,8 @@
 //     console.log('Why not?')
 //     break
 
-   // default: 
-   // console.log('Really?')
-
-
+// default:
+// console.log('Really?')
 
 // }
 
@@ -37,7 +35,7 @@
 
 // if (browser == 'Edge') {
 //     console.log("You've got the Edge!" );
-// } 
+// }
 // else if (browser == 'Chrome' ||) {
 //     console.log("You've got the Chrome");
 // }
@@ -54,10 +52,9 @@
 
 // }
 
-
 // let browser = prompt('What browser do you have?'); // +"1" => 1
 
-// if (browser == 'Edge' || browser == 'Firefox' || browser == 'Opera' || browser == 'Safari' || browser == 'Chrome') 
+// if (browser == 'Edge' || browser == 'Firefox' || browser == 'Opera' || browser == 'Safari' || browser == 'Chrome')
 // {
 //     console.log("You've got the ..." + browser);
 // }
@@ -69,26 +66,26 @@
 // let browser = 0;
 
 // while  (true){
-//     browser = prompt('What browser do you have?'); 
+//     browser = prompt('What browser do you have?');
 //      if (browser == 'Edge' || browser == 'Firefox' || browser == 'Opera' || browser == 'Safari' || browser == 'Chrome'
-//      ) 
+//      )
 //      console.log("You've got the ..." + browser);
-//      else if (browser == 'stop') break; 
-//      else 
+//      else if (browser == 'stop') break;
+//      else
 //      {
 //         console.log("Riprova");
 //     }
 // }
 
-// 
+//
 
 // let a = +prompt('a?', '');
 
 // switch (a) {
-    
+
 //     case 0:
 //     alert (0);
-//   break; 
+//   break;
 
 //     case 1:
 //         alert (1);
@@ -103,24 +100,22 @@
 //         break;
 // }
 
-// let browser = 0; 
+// let browser = 0;
 
 // while (true){
 // browser = prompt ('Which browser do you have?');
 
 //       if ( browser == 'Edge' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera')
-      
-//       console.log("You have got ... + browser"); 
 
-//          if (browser == 'stop') break; 
-          
-              
-//           else 
+//       console.log("You have got ... + browser");
+
+//          if (browser == 'stop') break;
+
+//           else
 //           { console.log("Riprova");
 //               }
 //           }
-         
-   
+
 // const ROWS = 3;
 // const COLUMNS = 5;
 // const PATERNS = "* * * *";
@@ -130,14 +125,26 @@
 //     for (j = 1; j <= 3; j++){
 //     console.log(PATERNS_2);
 //   }
-// } 
+// }
 
 // const ROWS = 3;
 // const COLUMS = 5;
 // const PATERNS= "*****";
 
-// for (let i = 0; i <= ROWS; i++){
-//       for (j = 1; j <= 3; j++){
-//     console.log(PATERNS);
+// for (let i = 0; i <= ROWS; i++) {
+//   for (j = 1; j <= 3; j++) {
+//     console.log(PATERNS)
 //   }
 // }
+
+function setup() {
+  var km = milesToKm(26, 3)
+  println(km)
+  var km2 = mileToKm(100)
+  println(km2)
+}
+
+function milesTokm(miles) {
+  var km = miles * 1.6
+  return km
+}
