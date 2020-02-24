@@ -1,7 +1,4 @@
-// c = create
-// R = read / retrieve
-// U = update
-// D = delete
+<!DOCTYPE html>
 
 let todos = [
   { id: 1, text: 'Learn JavaScript', completed: true },
@@ -9,11 +6,7 @@ let todos = [
   { id: 3, text: 'Forget everything' }
 ]
 
-function render() {
-  document.querySelector('ul').innerHTML = todos
-  .map()
-  (todo, index) => `
-  <li ${todo.completed ? }`
+function showTodos() {
   let html = (
     <ul>
       $
@@ -24,3 +17,5 @@ function render() {
   )
   return html
 }
+
+</html>

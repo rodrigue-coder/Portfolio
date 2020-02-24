@@ -1,3 +1,4 @@
+/*
 let arr = [1, 2, 3, 4, 5]
 
 function printAllItems(arr) {
@@ -21,6 +22,7 @@ function doubleArray(arr) {
 }
 doubleArray(arr)
 
+/*
 let arr = [1, 2, 3, 4, 5]
 
 // Check if array has at leat one even number
@@ -39,16 +41,21 @@ console.log(arr.every(isEven))
 // Return an array of even numbers, or an empty one
 
 let evenNumbers = arr.filter(isEven)
+console.log(evenNumbers)
+
 let oddNumbers = arr.filter(isOdd)
 console.log(oddNumbers)
-console.log(evenNumbers)
+
 console.log(arr.filter(isEven))
 
-//Sum numbers together
+Sum numbers together
 
 function Sum(arr) {
   return num(arr)
 }
 console.log(Sum(arr))
 
-// Get even numbers, square them, then add them together
+Get even numbers, square them, then add them together
+
+let evenNumbers = arr.filter(isEven)
+let square = evenNumbers * 2
