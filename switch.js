@@ -137,14 +137,30 @@
 //   }
 // }
 
-function setup() {
-  var km = milesToKm(26, 3)
-  println(km)
-  var km2 = mileToKm(100)
-  println(km2)
-}
+// function setup() {
+//   var km = milesToKm(26, 3)
+//   println(km)
+//   var km2 = mileToKm(100)
+//   println(km2)
+// }
 
-function milesTokm(miles) {
-  var km = miles * 1.6
-  return km
+// function milesTokm(miles) {
+//   var km = miles * 1.6
+//   return km
+// }
+
+//Add a section that will alert("Neither") if fruits is neither "banana" nor "apple".
+
+switch (fruits) {
+  case 'banana':
+    alert('Hello')
+    break
+  case 'apple':
+    alert('Welcome')
+    break
+  case 'mango':
+    alert('Not Juicy')
+    break
+  default:
+    alert('Neither')
 }
