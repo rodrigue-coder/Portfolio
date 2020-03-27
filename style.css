@@ -1,81 +1,78 @@
 body {
-        background-image: url(cameroun-flag.png);
-        background-repeat: no-repeat;
-        /* Full height */
+  background-image: url(cameroun-flag.png);
+  background-repeat: no-repeat;
+  /* Full height */
   height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: arial, "Times New Roman";
-
+  font-family: arial, 'Times New Roman';
 }
 
-h1  { 
-    font-size: 60px;
-    font-size: italic;
-    font-weight: 100;
-    text-align: center;
-    text-indent: 30px;
-    color: blue;
-    text-transform: uppercase;
-    word-spacing: 10px;
-    line-height: 40px;
+h1 {
+  font-size: 60px;
+  font-size: italic;
+  font-weight: 100;
+  text-align: center;
+  text-indent: 30px;
+  color: blue;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  line-height: 40px;
 }
 
-h2  { 
-    font-size: 40px;
-    font-size: italic;
-    font-weight: 100;
-    text-align: center;
-    text-indent: 30px;
-    text-transform: uppercase;
-    color: bisque;
-    word-spacing: 10px;
-    line-height: 40px;
+h2 {
+  font-size: 40px;
+  font-size: italic;
+  font-weight: 100;
+  text-align: center;
+  text-indent: 30px;
+  text-transform: uppercase;
+  color: bisque;
+  word-spacing: 10px;
+  line-height: 40px;
 }
-p{
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
+p {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
 }
-a{
-    text-decoration: none
+a {
+  text-decoration: none;
 }
 
-p    {text-align: left;
-    word-spacing: 10px;
-    line-height: 30px;
-    color: black;
-    margin-top: 100px; 
-    margin-bottom: 100px; 
-    margin-right: 100px; 
-    margin-left: 100px;
+p {
+  text-align: left;
+  word-spacing: 10px;
+  line-height: 30px;
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
-h2
-{text-align: center;
-
+h2 {
+  text-align: center;
 }
-h3
-{text-align: center;
-
+h3 {
+  text-align: center;
 }
-h4
-{text-align: center;
-
+h4 {
+  text-align: center;
 }
-h5 
-{
-    text-align: center;
+h5 {
+  text-align: center;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.head {text-align: center;
-font-size: 35pt;
-color: beige;
 
+head {
+  text-align: center;
+  font-size: 35pt;
+  color: beige;
 }
